@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import CustomInput from './CustomInput';
+import Login from './routes/Login';
+import SideMenu from './components/SideMenu';
 import './App.css';
 
 class App extends Component {
+  
   render() {
     return (
       <div>
-        <CustomInput />
+        <SideMenu />
+        <Login />
       </div>
     );
   }
