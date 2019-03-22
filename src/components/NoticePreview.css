@@ -1,0 +1,20 @@
+.noticewrap {
+    width: 600px;
+    margin: 50px auto;
+}
+.noticetitle {
+    width: 100%;
+    border-bottom: 3px solid #585858;
+}
+
+@media (max-width: 600px) {
+    .noticewrap {
+        width: 300px;
+        margin: 10px auto;
+    }
+}
+@media (min-width: 1100px) {
+    .noticewrap {
+        width: 800px;
+    }
+}
